@@ -1,6 +1,6 @@
 name: resume-learning
 mode: scaffold
-scope: project (self-llm)
+scope: 个人学习项目(按项目安装启用)
 job: 学习会话的存档(取证+追问式主动回忆+AI代写RESUME.md)与读档(30秒回顾+下一步)
 triggers:
   save: ["存档", "学完了", "今天到这", "今天学到这"]
