@@ -1,0 +1,22 @@
+{
+  "name": "vito-study",
+  "owner": {
+    "name": "vito",
+    "email": "santiagoliu333@gmail.com"
+  },
+  "metadata": {
+    "description": "Vito's self-study toolkit marketplace.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "study-kit",
+      "source": "./",
+      "description": "自学工具包:resume-learning(存档/读档) + study-coach(第一性原理学习教练)。",
+      "version": "0.1.0",
+      "author": {
+        "name": "vito"
+      }
+    }
+  ]
+}

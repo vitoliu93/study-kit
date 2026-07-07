@@ -1,0 +1,10 @@
+{
+  "name": "study-kit",
+  "version": "0.1.0",
+  "description": "自学工具包:降低业余学习(有工作、有孩子、有拖延症)的摩擦力。2 skills: resume-learning(学习存档/读档,追问式主动回忆,重启成本恒为 30 秒), study-coach(第一性原理学习教练——目标审计/迷茫急救/进度分析)。铁律:每个组件必须在打开 notebook 前后 5 分钟内被真实用到,否则不配存在。",
+  "author": {
+    "name": "vito",
+    "email": "santiagoliu333@gmail.com"
+  },
+  "keywords": ["learning", "study", "anti-procrastination", "first-principles"]
+}

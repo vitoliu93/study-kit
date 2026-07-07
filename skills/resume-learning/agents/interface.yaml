@@ -1,0 +1,17 @@
+name: resume-learning
+mode: scaffold
+scope: project (self-llm)
+job: 学习会话的存档(取证+追问式主动回忆+AI代写RESUME.md)与读档(30秒回顾+下一步)
+triggers:
+  save: ["存档", "学完了", "今天到这", "今天学到这"]
+  resume: ["读档", "继续学习", "继续 <主题>"]
+inputs:
+  - 当前主线涉及目录的实际改动(notebook/文件/git)
+  - 用户对追问的口头回答
+output_contract:
+  - 唯一产物是项目根的 RESUME.md(当前主线/我在哪/下一步/卡点/存档历史),全项目共享一份
+  - 下一步恒为一条、15分钟粒度
+exclusions:
+  - 工作任务交接 → handoff
+  - 通用笔记/文档整理
+rollback_boundary: 删除 .claude/skills/resume-learning 与根 RESUME.md 即完全回滚,无其他副作用
