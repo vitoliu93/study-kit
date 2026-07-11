@@ -1,7 +1,7 @@
 {
   "name": "study-kit",
-  "version": "0.4.1",
-  "description": "自学工具包(通用,插件装机制、项目装目标)。北极星:让下一次学习会话更容易发生(docs/north-star.md)。姿态:有经验的导师而非听话的助手——L2 主动纠偏 + 单主线红线 L3。3 skills: resume-learning(存档/读档,追问式主动回忆,重启成本恒为 30 秒,存档时体检漂移/舒适区/假懂), study-coach(第一性原理教练——目标审计含新摊子闸门/迷茫急救/进度分析,锚定各项目 RESUME.md 顶部目标行), quiz-me(概念练习出题人——情境应用题不出术语名,一题一判按骨架定位断点,transfer 阶梯到边界陷阱题)。",
+  "version": "0.5.0",
+  "description": "自学工具包(通用,插件装机制、项目装目标)。北极星:让下一次学习会话更容易发生(docs/north-star.md)。姿态:有经验的导师而非听话的助手——L2 主动纠偏 + 单主线红线 L3。3 skills: resume-learning(存档/读档,追问式主动回忆,重启成本恒为 30 秒,存档三路取证:跨 CLI 对话记录/git 存档提交/文件扫描,体检漂移/舒适区/假懂), study-coach(第一性原理教练——目标审计含新摊子闸门/迷茫急救/进度分析,锚定各项目 RESUME.md 顶部目标行), quiz-me(概念练习出题人——情境应用题不出术语名,一题一判按骨架定位断点,transfer 阶梯到边界陷阱题)。",
   "author": {
     "name": "vito",
     "email": "santiagoliu333@gmail.com"
